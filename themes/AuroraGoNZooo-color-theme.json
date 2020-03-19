@@ -1,5 +1,6 @@
 {
-	"tokenColors": [{
+	"tokenColors": [
+		{
 			"settings": {
 				"foreground": "#ffffff"
 			}
@@ -29,8 +30,7 @@
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#5f9cff",
-				"fontStyle": " italic"
+				"foreground": "#5f9cff"
 			}
 		},
 		{
@@ -40,8 +40,7 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#5f9cff",
-				"fontStyle": "italic"
+				"foreground": "#5f9cff"
 			}
 		},
 		{
@@ -70,8 +69,7 @@
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#7877ff",
-				"fontStyle": " italic"
+				"foreground": "#7877ff"
 			}
 		},
 		{
@@ -85,8 +83,7 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#c5e400",
-				"fontStyle": " italic "
+				"foreground": "#c5e400"
 			}
 		},
 		{
@@ -103,8 +100,7 @@
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#d9903b",
-				"fontStyle": " italic "
+				"foreground": "#d9903b"
 			}
 		},
 		{
@@ -135,7 +131,6 @@
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#7877ff"
 			}
 		},
@@ -146,7 +141,6 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#7877ff"
 			}
 		},
@@ -176,24 +170,71 @@
 			"name": "Elixir module",
 			"scope": "entity.name.type.module.elixir",
 			"settings": {
-				"foreground": "#5f9cff",
-				"fontStyle": "italic"
+				"foreground": "#5f9cff"
+			}
+		},
+		{
+			"name": "Elixir functions",
+			"scope": "entity.name.function-call.elixir",
+			"settings": {
+				"foreground": "#c5e400"
+			}
+		},
+		{
+			"name": "Elixir Modules",
+			"scope": "variable.other.constant.elixir",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#b25ffff1"
+			}
+		},
+		{
+			"name": "Atom",
+			"scope": "constant.other.symbol.elixir",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant.language.elixir",
+			"settings": {
+				"foreground": "#5cb9ac"
+			}
+		},
+		{
+			"name": "List",
+			"scope": "punctuation.section.array.elixir",
+			"settings": {
+				"foreground": "#f3b2b2",
+			}
+		},
+		{
+			"name": "scope",
+			"scope": "punctuation.section.scope.elixir",
+			"settings": {
+				"foreground": "#cdffb9"
+			}
+		},
+		{
+			"name": "__MODULE__ and other special forms",
+			"scope": "variable.language.elixir",
+			"settings": {
+				"foreground": "#ff00006e"
 			}
 		},
 		{
 			"name": "Type",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#4477ff",
-				"fontStyle": ""
+				"foreground": "#4477ff"
 			}
 		},
 		{
 			"name": "Module",
 			"scope": "support.other.module",
 			"settings": {
-				"foreground": "#c5e400",
-				"fontStyle": ""
+				"foreground": "#c5e400"
 			}
 		},
 		{
