@@ -252,13 +252,47 @@
 			}
 		},
 		{
-			"name": "Elixir module",
-			"scope": "variable.other.constant.elixir",
+			"name": "Markdown heading definition",
+			"scope": "punctuation.definition.heading.markdown",
 			"settings": {
-				"foreground": "#5f9cff",
-				"fontStyle": "italic"
+				"foreground": "#5f9cff"
 			}
-		}
+		},
+		{
+			"name": "Markdown Unnumbered list",
+			"scope": "punctuation.definition.list.begin.markdown",
+			"settings": {
+				"foreground": "#f3b2b2",
+			}
+		},
+		{
+			"name": "Markdown underline link",
+			"scope": "markup.underline.link.markdown",
+			"settings": {
+				"foreground": "#e12977"
+			}
+		},
+		{
+			"name": "Markdown fenced code delimiters",
+			"scope": "punctuation.definition.markdown",
+			"settings": {
+				"foreground": "#f3b2b2",
+			}
+		},
+		{
+			"name": "Markdown fenced code language",
+			"scope": "fenced_code.block.language.markdown",
+			"settings": {
+				"foreground": "#ff00006e",
+			}
+		},
+		{
+			"name": "Markdown bold marker",
+			"scope": "punctuation.definition.bold.markdown",
+			"settings": {
+				"foreground": "#f3b2b2",
+			}
+		},
 	],
 	"colors": {
 		"editor.background": "#23212e",
